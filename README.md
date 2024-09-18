@@ -15,9 +15,15 @@ php artisan serve
 RUN http://127.0.0.1:8000
 
 (IF YOU NEED ADD NEW USER, USE php artisan tinker)
+
 $user = new App\Models\User;
+
 $user->name = 'NewName';
+
 $user->email = 'NewEmail';
+
 $user->password = bcrypt('NewPassword');
+
 $user->save();
+
 exit
