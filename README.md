@@ -37,3 +37,7 @@ $user->password = bcrypt('NewPassword');
 $user->save();
 
 exit
+
+-----------------------------------------------------
+
+DRIVE DEMONSTRASI (siapa tau gk sempet clone/cek) : https://drive.google.com/file/d/1Qn9vZdRvtD4KkNw0V1WyckLF4A4hvqZE/view?usp=drive_link
